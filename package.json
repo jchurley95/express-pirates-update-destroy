@@ -1,0 +1,27 @@
+{
+  "name": "express-pirates-update-destroy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchurley95/express-pirates-update-destroy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jchurley95/express-pirates-update-destroy/issues"
+  },
+  "homepage": "https://github.com/jchurley95/express-pirates-update-destroy#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "hbs": "^4.0.1",
+    "method-override": "^2.3.9",
+    "morgan": "^1.8.2"
+  }
+}
