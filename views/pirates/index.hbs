@@ -1,0 +1,15 @@
+<h1>The Flyest Pirates of Da 7 Cs</h1>
+<h3>This list contains {{pirates.seededPirates.length}} Pirates</h3>
+<ul>
+  {{#each pirates.seededPirates}}
+    <li><a href="/pirates/{{@index}}"><h2>{{name}}</h2></a></li>
+  <form method="POST" action="/pirates/{{@index}}?_method=DELETE">
+      <button>DELETE</button>
+    </form>
+  {{/each}}
+  
+</ul>
+
+<form action="/pirates/new">
+    <input type="submit" value="Create a New Pirate" />
+</form>
